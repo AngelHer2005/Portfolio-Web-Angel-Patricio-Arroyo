@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #050505;
+  overflow: hidden; /* Para que el 3D ocupe todo */
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #000; }
+::-webkit-scrollbar-thumb { background: #0f750d; border-radius: 4px; }
